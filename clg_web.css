@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:serif;
+
+}
+.header_content{
+    height:80px;
+    width:100%;
+    display :flex;
+    flex-wrap:wrap;
+    justify-content:space-between; 
+    background-color: burlywood;
+    align-items: center;
+    position :fixed;
+    
+}
+#clg{
+    display :flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+}
+#logo{
+    border-radius: 25px;
+}
+ul{
+    display:flex;
+    flex-wrap:nowrap;
+    list-style-type:none;
+    gap:5px;
+    transition:transform 0.5s,color 0.5s;
+    font-size:20px;
+    font-weight:90;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+li{
+    margin-right: 15px;
+}
+li:hover{
+    transform:scale(1.1) ;
+    color: saddlebrown;
+    font-size: 25px;
+    cursor:pointer;
+    text-decoration: underline;
+}
+.heading {
+    background-image:url(girl.jpeg) ;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display : flex;
+    justify-content :flex-start;
+    flex-wrap: wrap;
+font-family: "Bungee Tint", sans-serif;
+    align-items: center;
+    padding-left: 45px;
+    font-size:35px;
+    }
+.faculty{
+    display :flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+ row-gap:15px;
+}
+.f1,.f2,.f3,.i1,.i2,.i3{
+max-width:300px;
+border: 2px groove black;
+text-align:center;
+border-radius:5px;
+box-sizing:border-box;
+}    
+#bsc,#bcom,#bba,#msc{
+    height:70px;
+    width:250px;
+    font-size:20px;
+    border:10px ridge lightblue;
+    padding:20px;
+    border-radius: 25px;
+    display :column;
+    justify-content:center;
+    align-items: center;
+    text-align:center;
+    padding-top:20px ;
+
+}
+.course,.about_text,.contact,.faculty_text{
+    margin-top: 20px;
+    padding: 50px;
+    font-size:30px;
+    text-decoration:underline;
+    transition: transform 0.5s,color 0.5s;
+}
+.course:hover,.about_text:hover,.contact:hover,.faculty_text:hover
+{
+    transform: scale(1,1);
+    font-size: 40px;
+    color:orange;
+}
+.courses{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:40px;
+    }
+
+.clg_img{
+    max-height:400px;
+    width:30%;
+    border-radius:15px;
+    border:6px solid black;
+}
+.about{
+    text-align:justify;
+    display :flex;
+    justify-content:space-evenly;
+   gap:20px;
+   flex-wrap: wrap;
+  margin: 0 10px 0 10px;
+}
+footer{
+    margin-top:20px;
+    height:100px;
+    background-color: cadetblue;
+    font-size:20px;
+     display :flex;
+    justify-content: space-around;
+    align-items: center;
+}
