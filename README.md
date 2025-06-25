@@ -28,8 +28,7 @@
 
 ## 📸 Preview
 
-<img src="webclg.jpg" height="5
-  100%" width="100%">
+<img src="clgweb.jpg" alt="College Website Preview" height="100%" width="100%">
 
 ## 📂 How to Use
 1. Clone this repository:
